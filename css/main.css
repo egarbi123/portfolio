@@ -1,0 +1,183 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../assets/images/redwood-path.jpg") no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color: white;
+    overflow: hidden;
+}
+
+.logo {
+    font-size: 33px;
+    padding-left: 95px;
+    padding-top: 20px;
+    padding-right: 98px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.nav-link-box {
+    position: absolute;
+    right: 0px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    min-width: 608px;
+}
+
+.nav-link {
+    width: 150px;
+    border: 1px solid white;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+}
+
+.cover-photo-cont {
+    width: 300px;
+    padding: 30px;
+}
+
+.cover-photo-cont img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px #000000;
+}
+
+.my-bio {
+    color: white;
+    margin: auto;
+}
+
+.bio-space {
+    width: 500px;
+    text-align: center;
+}
+
+.bio-space p {
+    font-size: 20px;
+}
+
+.contact-links {
+    height: 50px;
+    width: 400px;
+    margin: auto;
+}
+
+.logo-cont {
+    width: 50px;
+    padding: auto;
+}
+
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.my-skills p {
+    font-size: 30px;
+}
+
+.skills-cont-js {
+    width: 150px;
+    padding: 10px;
+}
+
+.skills-cont-mong {
+    width: 300px;
+    padding: 10px;
+}
+
+.skills-cont {
+    width: 250px;
+    padding: 10px;
+}
+
+.skills-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.my-projects {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.my-projects p {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+}
+
+.project-section h3 {
+    font-size: 26px;
+    padding: 5px;
+}
+
+.project-section p {
+    font-size: 16px;
+}
+
+.project-img-cont img {
+    height: 250px;
+    width: 250px;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-cont {
+    width: 100px;
+    padding: 40px;
+}
