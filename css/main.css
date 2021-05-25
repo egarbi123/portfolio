@@ -147,6 +147,7 @@ img {
 .projects {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .project-section {
