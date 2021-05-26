@@ -27,12 +27,11 @@ nav {
 }
 
 .nav-link-box {
-    position: absolute;
     right: 0px;
     font-size: 20px;
     display: flex;
     flex-direction: row;
-    min-width: 608px;
+    margin: auto;
 }
 
 .nav-link {
