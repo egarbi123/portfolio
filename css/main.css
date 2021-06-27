@@ -9,7 +9,6 @@
 }
 
 nav {
-    height: 75px;
     display: flex;
     flex-direction: row;
     position: relative;
@@ -155,6 +154,7 @@ img {
     text-align: center;
     width: 300px;
     padding: 20px;
+    align-items: center;
 }
 
 .project-section h3 {
@@ -164,6 +164,10 @@ img {
 
 .project-section p {
     font-size: 16px;
+}
+
+.project-img-cont {
+    width: fit-content
 }
 
 .project-img-cont img {
